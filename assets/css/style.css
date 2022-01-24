@@ -474,6 +474,22 @@ ul.slick-dots {
 	right: 0;
 	padding: 17px 21px;
 }
+
+.exhibition-button-group > a {
+	padding: 7px 44px;
+	background-color: transparent;
+	border: 2px solid #ff6584;
+	font-size: 1.3rem;
+	border-radius: 34px;
+	color: #ffffff;
+	margin-right: 15px;
+	transition: 0.3s;
+}
+
+.exhibition-button-group > a:hover {
+	background: #ff6584;
+}
+
 .exhibition-button-group > button:first-child {
 	padding: 7px 44px;
 	background-color: transparent;
