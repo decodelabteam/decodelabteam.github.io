@@ -103,6 +103,7 @@
                                 <a href="#">Chobi Mela</a>
                                 <a href="#">DrikNews</a>
                                 <a href="#">BANGLADESH SEEN FROM WITHIN</a>
+                                <a href="#">BANGLADESH SEEN FROM WITHIN</a>
                             </div>
                         </div>
                         <div class="dropdown">
@@ -138,13 +139,19 @@
             </nav>
             <div class="heroslider">
                 <div class="hero">
-                    <blockquote>
-                        <p>1 An insight into the evolution of one of the most significant movements in contemporary
-                            photography, through the eyes and voice of the man who shaped it. An extraordinary artist,
-                            Shahidul Alam is a photographer, writer, activist, and social entrepreneur who used his art
-                            to chronicle the social and artistic struggles in a country known largely for poverty and
-                            disasters.</p>
-                    </blockquote>
+                    <a style="display: block;" href="#">
+                        <blockquote>
+                            <p>1 An insight into the evolution of one of the most significant movements in contemporary
+                                photography, through the eyes and voice of the man who shaped it. An extraordinary
+                                artist,
+                                Shahidul Alam is a photographer, writer, activist, and social entrepreneur who used his
+                                art
+                                to chronicle the social and artistic struggles in a country known largely for poverty
+                                and
+                                disasters.</p>
+                        </blockquote>
+                    </a>
+
                 </div>
                 <div class="hero">
                     <blockquote>
@@ -172,7 +179,7 @@
         <main>
 
             <section class="main-text-section container padding-Y">
-                <div class="main-text">
+                <!-- <div class="main-text">
                     <div>
                         <img src="./assets/img/logo.png" width="100%" height="100%" alt="">
                     </div>
@@ -185,11 +192,17 @@
                         Photography,
                         Publication, Audiovisual, DrikNEWS, Gallery & Event Management and Research & Public Campaign
                     </p>
-                    <!-- <div class="accodiant-details-show">
-                    <i class="fas fa-ellipsis-h"></i>
                 </div> -->
-                </div>
                 <div class="para">
+                    <p>
+                        Drik Picture Library, Bangladesh is a distinctive multimedia organisation that was established
+                        in 1989. Its major areas
+                        of expertise are advocacy and awareness campaigns, production of communication materials and
+                        training. Drik is able to
+                        provide one-stop cost effective multimedia services through its seven departments – Drik Images,
+                        Photography,
+                        Publication, Audiovisual, DrikNEWS, Gallery & Event Management and Research & Public Campaign
+                    </p>
                     <p>Drik (the Sanskrit word for vision) Picture Library Limited was founded in Dhaka, Bangladesh by a
                         small group of people
                         who wanted to give photographers in developing countries a platform on which they could display
@@ -201,8 +214,6 @@
                         photographers sent in-country,” Drik’s mission is to collect, sell and distribute high-quality
                         images of the developing
                         world by the developing world.</p>
-                    <br>
-                    <br>
                     <p>Drik, Bangladesh is today an award winning multimedia organisation that has made excellence in
                         client services along
                         with challenging social inequality, its twin objectives. As an independent media organisation it
@@ -210,8 +221,6 @@
                         goals with a high level of professionalism, ensuring high quality of services at competitive
                         terms, a balance it has
                         maintained over its near 30 year history.</p>
-                    <br>
-                    <br>
                     <p>Set up on principles of social equality, it uses media to highlight issues relating to human
                         rights, democracy and
                         governance. Drik has trained working class children, women, physically challenged people and
@@ -477,7 +486,7 @@
             </div>
         </section> -->
 
-            <section class="calendar-section padding-y">
+            <section class="calendar-section padding-y" style="display: none">
                 <h2>Calendar</h2>
 
                 <a href="./calendar.html">
@@ -964,7 +973,7 @@
                 </div>
             </section>
 
-            <section class="initiatives-section padding-Y">
+            <section class="initiatives-section padding-Y" style="display: none">
                 <h2>Initiatives</h2>
                 <div class="initiatives-images">
                     <div>
@@ -1006,8 +1015,10 @@
 
         <footer>
             <div class="left-side">
-                <div><img src="./assets/img/logo.png" width="70%" height="100%" alt=""></div>
-                <div>
+                <div class="footer-logo-section">
+                    <img src="./assets/img/logo.png" width="70%" height="100%" alt="">
+                </div>
+                <div style="display: none;">
                     <p>Drik Picture Library, Bangladesh is a distinctive multimedia organisation that was established in
                         1989. Its major areas
                         of expertise are advocacy and awareness campaigns, production of communication materials and
@@ -1137,7 +1148,7 @@
                     speed: 1000,
                     slidesToShow: 1,
                     slidesToScroll: 1,
-                    autoplay: true,
+                    autoplay: false,
                     autoplaySpeed: 4000
                 });
 

@@ -143,11 +143,11 @@ a#activeMenu {
 	background-color: rgba(0, 0, 0, 0.561);
 	padding: 100px 0px;
 }
-.hero > blockquote {
+.hero blockquote {
 	width: 85%;
 	margin: 150px auto;
 }
-.hero > blockquote p {
+.hero blockquote p {
 	font-size: 2rem;
 	color: #ffffff;
 	line-height: 1.2;
@@ -156,7 +156,7 @@ a#activeMenu {
 	position: relative;
 }
 
-.hero > blockquote p::before {
+.hero blockquote p::before {
 	content: "\201D";
 	font-size: 4rem;
 	position: absolute;
@@ -164,7 +164,7 @@ a#activeMenu {
 	margin-left: -20px;
 }
 
-.hero > blockquote p::after {
+.hero blockquote p::after {
 	content: "\201D";
 	font-size: 4rem;
 	position: absolute;
@@ -206,10 +206,11 @@ ul.slick-dots {
 /* main text section start */
 
 .main-text-section p {
-	font-size: 1.2rem;
+	font-size: 1rem;
 	font-family: "Poppins", sans-serif;
 	font-weight: 300;
 	color: #000000;
+	padding-bottom: 10px;
 }
 
 .main-text {
@@ -620,6 +621,16 @@ footer iframe {
 	filter: grayscale(100%);
 }
 
+.footer-logo-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.footer-logo-section img {
+	height: auto;
+}
 /* responsive part */
 
 @media screen and (max-width: 992px) {
