@@ -48,7 +48,7 @@ body {
 
 .logo img {
 	width: auto;
-	height: 100px;
+	height: 129px;
 }
 
 .social-media-icon {
@@ -75,11 +75,13 @@ body {
 	align-items: center;
 }
 .navs ul > li {
-	padding: 10px 15px;
+	padding: 0;
 	/* padding: 5px 0px 6px 5px;
   margin-right: 10px; */
 }
 .navs ul > li > a {
+	padding: 25px 15px;
+	display: block;
 	text-decoration: none;
 	font-size: 1rem;
 	font-family: "Poppins", sans-serif;
@@ -269,7 +271,7 @@ ul.slick-dots {
 	font-size: 4rem;
 	font-weight: 400;
 	text-align: center;
-	font-family: "Zeyada", cursive;
+	font-family: "Poppins", cursive;
 }
 .recent-news-section > h2::first-letter {
 	color: #ff6584;
@@ -313,7 +315,7 @@ ul.slick-dots {
 	font-weight: 400;
 	text-align: center;
 	color: #7b7b7b;
-	font-family: "Zeyada", cursive;
+	font-family: "Poppins", cursive;
 }
 .depertment-section > h2::first-letter {
 	color: #ff6584;
@@ -438,7 +440,7 @@ ul.slick-dots {
 	font-weight: 400;
 	text-align: center;
 	color: #7b7b7b;
-	font-family: "Zeyada", cursive;
+	font-family: "Poppins", cursive;
 }
 .exhibition-section > h2::first-letter {
 	color: #ff6584;
@@ -534,7 +536,7 @@ ul.slick-dots {
 	font-weight: 400;
 	text-align: center;
 	color: #7b7b7b;
-	font-family: "Zeyada", cursive;
+	font-family: "Poppins", cursive;
 }
 
 .calendar-section > h2::first-letter {
@@ -570,7 +572,7 @@ ul.slick-dots {
 	font-weight: 400;
 	text-align: center;
 	color: #7b7b7b;
-	font-family: "Zeyada", cursive;
+	font-family: "Poppins", cursive;
 }
 .initiatives-section > h2::first-letter {
 	color: #ff6584;
